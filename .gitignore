@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# PyCharm specific files
+.idea/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Application generated files
+baseline.json
+
+# Test files and folders
+my_test_folder/
+test_file.txt
+test*.txt
