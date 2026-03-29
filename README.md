@@ -95,7 +95,7 @@ cd File_Integrity_Checker
 
 **3. Run the application:**
 ```bash
-python fim.py
+python File_Integrity_Checker.py
 ```
 
 ---
@@ -105,7 +105,7 @@ python fim.py
 For users without a Python environment, a pre-compiled standalone executable is available.
 
 1. Navigate to the [Releases](https://github.com/Cyberdrek01/File_Integrity_Checker/releases) section on the right side of this repository page.
-2. Download the latest `fim.exe` file.
+2. Download the latest `File_Integrity_Checker.exe` file.
 3. Place the executable in your desired monitoring directory and double-click to run.
 
 No installation or Python environment is required.
@@ -125,7 +125,8 @@ It is recommended to establish a fresh baseline immediately after a clean system
 ## Project Structure
 ```
 File_Integrity_Checker/
-├── fim.py            # Main application entry point
+├── File_Integrity_Checker.py            # Main application entry point
+├── File_Integrity_Checker.exe           # Ready to run download and run
 ├── baseline.json     # Auto-generated baseline hash store (created at runtime)
 └── README.md
 ```
