@@ -126,7 +126,6 @@ It is recommended to establish a fresh baseline immediately after a clean system
 ```
 File_Integrity_Checker/
 ├── File_Integrity_Checker.py            # Main application entry point
-├── File_Integrity_Checker.exe           # Ready to run download and run
 ├── baseline.json     # Auto-generated baseline hash store (created at runtime)
 └── README.md
 ```
